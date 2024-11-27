@@ -1,0 +1,138 @@
+.body {
+
+    background: #FFFCF2;
+    margin: 0 auto;
+}
+
+.header {
+
+    display: flex;
+    /* height: 57px; */
+    background: #D9D9D9;
+    font-family: 'Le Jour', sans-serif;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+
+    display: flex;
+    position: relative;
+    width: 61px;
+    height: 54px;
+    left: 30px;
+    top: 2px;
+}
+
+.nome {
+
+    position: relative;
+    left: 100px;
+    top: -45px;
+    font-size: 30px;
+    width: 150px;
+}
+
+.divMenu {
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 40px;
+
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.menu {
+    margin-right: 20px;
+}
+
+.menu1 {
+    margin-right: 40px;
+}
+
+.divLogo {
+
+    width: 300px;
+    height: 55px;
+}
+
+.divSessoes {
+
+    display: flex;
+    height: 40px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+/* ------------------------------------------------- */
+
+.titulo{
+
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 5vw;
+    margin-left: 10vw;
+    
+
+    font-family: 'Italiana';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 28px;
+}
+
+.divVestidos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.vestidos{
+
+    columns: 4;
+}
+
+.img{
+    margin-top: 50px;
+    width: 35vh;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+
+p{
+    font-family: "Inria Serif", serif;
+    font-size: 20px;
+
+    width: 35vh;
+}
+
+/* Inicio footer */
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+}
+
+h5 {
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* fim footer */

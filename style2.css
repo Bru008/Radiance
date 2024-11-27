@@ -1,0 +1,245 @@
+.body {
+
+    background: #FFFCF2;
+    margin: 0 auto;
+}
+
+.header {
+
+    display: flex;
+    /* height: 57px; */
+    background: #D9D9D9;
+    font-family: 'Le Jour', sans-serif;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+
+    display: flex;
+    position: relative;
+    width: 61px;
+    height: 54px;
+    left: 30px;
+    top: 2px;
+}
+
+.nome {
+
+    position: relative;
+    left: 100px;
+    top: -45px;
+    font-size: 30px;
+    width: 150px;
+}
+
+.divMenu {
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 40px;
+
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.menu {
+    margin-right: 20px;
+}
+
+.menu1 {
+    margin-right: 40px;
+}
+
+.divLogo {
+
+    width: 300px;
+    height: 55px;
+}
+
+.divSessoes {
+
+    display: flex;
+    height: 40px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+/* fim header */
+
+/* inicio main */
+
+/* .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+
+.divVerao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.verao {
+
+    margin-top: 6vh;
+    display: flex;
+    width: 1700px;
+}
+
+
+.tituloV {
+    display: flex;
+
+    position: relative;
+    top: -240px;
+    left: -650px;
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+
+    background-image: linear-gradient(to bottom, #4e492f, #DDBA01);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    color: #DDBA01;
+}
+
+.subtituloV {
+
+    display: flex;
+    position: relative;
+    top: -240px;
+    left: -465px;
+    font-family: 'Inria Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.destaque {
+
+    display: flex;
+    margin-left: 18vh;
+    margin-bottom: 1vh;
+
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.divDestaques {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.outono {
+    margin-bottom: 5vh;
+}
+
+.tituloOutono {
+
+    display: flex;
+
+    position: relative;
+    top: 7vh;
+    right: 40vh;
+
+    font-family: 'Instrument Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 42px;
+
+    color: #8BB5B8;
+}
+
+.inverno {
+    margin-bottom: 5vh;
+}
+
+.tituloInverno {
+    display: flex;
+
+    position: relative;
+    top: 7vh;
+    right: 40vh;
+
+    font-family: 'Instrument Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 42px;
+
+    color: #8BB5B8;
+}
+
+.modaMasculina {
+    margin-bottom: 5vh;
+
+}
+
+.tituloModa {
+    display: flex;
+
+    position: relative;
+    top: 7vh;
+    right: 40vh;
+
+    font-family: 'Instrument Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 42px;
+
+    color: #6C9BA2;
+}
+
+
+
+/* fim main */
+
+/* inicio footer */
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+}
+
+h5 {
+    font-size: medium;
+    color: rgb(0, 0, 0);
+
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* fim footer */
